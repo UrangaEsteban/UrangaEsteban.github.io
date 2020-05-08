@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1px solid #A51F10;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+}
+nav {
+    border-top: 2px solid #DA0090;
+    border-bottom: 2px solid #A51F10; 
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a{
+    color: #A51F10;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #000;
+    color: #84de37;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.leftheader {
+    padding-right: 1rem;
+}
+
+.rightheader h1 {
+    color: #DA0090;
+    margin: 0;
+}
+
+.rightheader p {
+    font-size: .7rem;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-bottom: 2px solid #DA0090;
+    margin-bottom: 0.3rem;
+}
+
+section article {
+    margin: 2rem 0;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 1rem; 
+}
+
+article img {
+    border-radius: 1rem;
+}
